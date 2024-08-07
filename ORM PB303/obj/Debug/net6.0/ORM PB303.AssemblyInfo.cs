@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORM PB303")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5d46936d0bcd26f02bb9fc7d81280d3d8a0898f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORM PB303")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORM PB303")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

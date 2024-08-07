@@ -23,6 +23,7 @@ public class AuthorService : IAuthorService
             Console.WriteLine("Bu fincode artiq movcuddur");
             return;
         }
+
         await _context.Authors.AddAsync(author);
         await _context.SaveChangesAsync();
     }

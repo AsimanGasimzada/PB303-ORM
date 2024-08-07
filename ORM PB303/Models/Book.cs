@@ -19,4 +19,9 @@ public class Book : BaseEntity
     public Author Author { get; set; } = null!;
     public int AuthorId { get; set; }
 
+    public override string ToString()
+    {
+        return $"{Id} {Name} {Price} {Author.Fullname}";
+    }
+
 }

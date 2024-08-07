@@ -49,7 +49,7 @@ namespace ORM_PB303.Migrations
                     b.HasIndex("Fincode")
                         .IsUnique();
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", (string)null);
                 });
 
             modelBuilder.Entity("ORM_PB303.Models.Book", b =>
@@ -80,7 +80,7 @@ namespace ORM_PB303.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("ORM_PB303.Models.Book", b =>
